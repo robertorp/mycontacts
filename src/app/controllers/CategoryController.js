@@ -1,7 +1,6 @@
 const CategoryRepository = require("../repositories/CategoriesRepository");
 
 class CategoryController {
-  // ignore
   async index(req, res) {
     const { orderBy } = req.query;
 
